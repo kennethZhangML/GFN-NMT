@@ -4,7 +4,7 @@ GFlowNets are a powerful framework for training Neural Machine Translation (NMT)
 
 ## Introduction to GFlowNets
 
-GFlowNets are generative models designed for constructing complex objects step by step through a sequence of actions. These objects could represent translations, structured data, or any other structured output. The key features of GFlowNets in the context of NMT include:
+GFlowNets are generative models designed for constructing complex objects step by step through a sequence of actions, proposed by Y. Bengio. These objects could represent translations, structured data, or any other structured output. The key features of GFlowNets in the context of NMT include:
 
 - **Sequential Construction**: GFlowNets build objects sequentially, one step at a time, using a stochastic policy to select each action. In the context of NMT, this means generating translations one token at a time.
 
